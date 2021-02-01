@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="1" time="0">
+    <testcase classname="Gmail login page" name="Validate gmail login page when user and password both are valid" time="0">
+        <skipped><![CDATA[Given User is in gmail login page...........................................undefined
+When Enters valid user in User Field........................................undefined
+And Click next button.......................................................undefined
+And Enters valid password in password field.................................undefined
+And Click on next button to login...........................................undefined
+Then Verify User is on email profile page...................................undefined
+]]></skipped>
+    </testcase>
+</testsuite>

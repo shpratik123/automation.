@@ -28,7 +28,7 @@ public class Alternative_add {
         double sum = 0.00; //Actual, WebElements..
         double expectedSum = 90.35;
         List<WebElement> rows = wd.findElements(By.xpath("//*[@id='main']/div[6]/table/tbody/tr/td[6]"));
-        // array ma haleko sabai list lai ..... elements le sabai list aucha
+        // array ma haleko sabai list lai ..... elements le sabai list aucha // tr ko value hataune
 
         for(WebElement row : rows)
         {

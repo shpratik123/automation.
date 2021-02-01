@@ -29,7 +29,7 @@ public class Add {
         }
         Thread.sleep(3000);
 
-        Assert.assertEquals(expectedTotal,actualTotal,0); // delta = difference of expected and actual
+        Assert.assertEquals(expectedTotal,actualTotal,0); // delta = difference of expected and actual // how many place decimal
 
 
 

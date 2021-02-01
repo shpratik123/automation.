@@ -17,9 +17,9 @@ public class User_invalid {
 
         driver.findElement(By.id("identifierId")).sendKeys("qatesting0056789@gmail.com");
         driver.findElement(By.xpath("//*[@id=\"identifierNext\"]/div/button/div[2]")).click();
-
+        
 Thread.sleep(3000);
-        String expectedResult ="Couldn't find your Google Account";
+        String expectedResult ="Couldn’t find your Google Account";
        WebElement actualResult = driver.findElement(By.xpath("//*[@id=\"view_container\"]/div/div/div[2]/div/div[1]/div/form/span/section/div/div/div[1]/div/div[2]/div[2]/div"));
         Assert.assertEquals(expectedResult,actualResult.getText());
 
